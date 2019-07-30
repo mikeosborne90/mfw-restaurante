@@ -1,11 +1,7 @@
+/* Global */
+
 @import url('https://fonts.googleapis.com/css?family=Lobster|Raleway&display=swap');
 
-#our_Story,
-#menu,
-#contact
-{
-
-}
 /* .wrap
 {
     min-height: 100vh; Using styling from min-height 600px below instead
@@ -17,10 +13,12 @@
     margin: 0;
 }
 
-#our_story, #review
+#our_story, #review, #menu, #contact
 {
     min-height: 600px;
 }
+
+/* End of Global */
 
 /* Navbar */
 
@@ -254,12 +252,8 @@ menu p
     background-color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-#menu .nav li a:hover
-{
-    background-color:rgba(255,255,255,0.1);
-    border-color: transparent;
+    height:fit-content;
+    
 }
 
 #menu .nav-justified li a
@@ -270,6 +264,12 @@ menu p
 #menu .nav-tabs li a
 {
     border: none;
+}
+
+#menu .nav li a:hover
+{
+    background-color:rgba(255,255,255,0.1);
+    border-color: transparent;
 }
 
 /* End of Menu */
